@@ -165,11 +165,12 @@ footer{
 
   .banner .welcome{
     font-size: 20px;
-    position: relative;
+    position: relative;   /* no fixed */
     text-align: center;
   }
+  /* remove the newline */
   .banner .welcome br{
-    display: none;
+    display: none;  
   }
   .banner .welcome span{
     font-size: 1em;
